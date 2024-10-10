@@ -1,0 +1,12 @@
+wget https://github.com/neovim/neovim/releases/download/v0.10.2/nvim-linux64.tar.gz
+tar -xzvf nvim-linux64.tar.gz
+sudo mv nvim-linux64 /usr/local/nvim
+sudo ln -s /usr/local/nvim/bin/nvim /usr/bin/nvim
+rm nvim-linux64.tar.gz
+
+git config --global init.defaultBranch main
+
+sudo apt install build-essential cmake
+
+#cd ~/.local/share/nvim/lazy/telescope-fzf-native.nvim
+#make

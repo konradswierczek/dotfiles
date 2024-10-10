@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	name = konradswierczek
+	email = swierckj@mcmaster.ca
+[core]
+	editor = nvim
